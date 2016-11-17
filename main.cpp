@@ -7,10 +7,10 @@ int main(){
   // Matrix a;
   // a.display(true);
 
-  Matrix a(5, 2, "1 2 1.1 34 44 456 2 4 6.23");
-  Matrix b;
+  Matrix<double> a(5, 2, "1 2 1.1 34 44 456 2 4 6.23");
+  Matrix<double> b;
   b = a * 10;
-  Matrix c = a + b;
+  Matrix<double> c = a + b;
 
   a.display(true);
   b.display(true);
